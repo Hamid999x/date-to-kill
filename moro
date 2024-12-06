@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea Date</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Body styling */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Centered container */
+    .container {
+      text-align: center;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+    }
+
+    /* Main text styling */
+    h1 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    /* Button styling */
+    button {
+      font-size: 16px;
+      font-weight: 500;
+      color: #ffffff;
+      background-color: #4caf50;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 8px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    /* No button specific color */
+    #noButton {
+      background-color: #ff5722;
+    }
+
+    /* Hover effect */
+    button:hover {
+      opacity: 0.9;
+    }
+
+    /* Subtle press effect */
+    button:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Laif er shes date e jawar age vablam kisu khawai tomare, nicher jekono ekta place choose korte paro🌚✌️...</h1>
+    <button id="yesButton">Clg er Fuska🫣</button>
+    <button id="noButton">Yum Cha🫰</button>
+  </div>
+
+  <script>
+    // Yes button action
+    document.getElementById("yesButton").onclick = function () {
+      alert("Fuska khaba tahole? Okay :) College khulle chutir por khawaboni✌️");
+    };
+
+    // No button action
+    document.getElementById("noButton").onclick = function () {
+      alert("Okay, Yum Cha hoilo! Next time abar plan kore chai 😅");
+    };
+  </script>
+</body>
+</html>
